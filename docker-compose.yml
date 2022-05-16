@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  web:
+    image: my-laravel-image
+    ports:
+        - 8000:8000
+    volumes:
+        - ./:/var/www
